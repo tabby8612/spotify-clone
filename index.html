@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f45d3ff44.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Spotify Clone</title>
+</head>
+
+<body>
+
+    <div class="container flex">
+        <div class="left bg-black">
+            <div class="logo active">
+                <i class="fa-brands fa-spotify"></i>
+                <p>Spotify</p>
+            </div>
+
+            <div class="menu">
+                <div class="home active">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Search</p>
+                </div>
+            </div>
+
+            <div class="library-section">
+                <img src="library.svg" alt="library">
+                <h3>Your Library</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="podcast-container">
+                <div class="playlist">
+                    <h1>Create Your First Playlist</h1>
+                    <h3>It's easy, we'll help you</h3>
+                    <button>Create Playlist</button>
+                </div>
+                <div class="podcast">
+                    <h1>Let's find some podcast to follow</h1>
+                    <h3>We'll keep you updated on new episode</h3>
+                    <button>Browse Podcast</button>
+                </div>
+            </div>
+
+            <div class="links-section">
+                <a href="">Legal</a>
+                <a href="">Safety & Privacy Center</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookies</a>
+                <a href="">About Ads</a>
+                <a href="">Accessibility</a>
+                <a href="">Cookies</a>
+            </div>
+
+            <button class="language-btn"><i class="fa-solid fa-globe"></i>English</button>
+            <div class="spacer"></div>
+        </div>
+
+        <div class="middle">
+            <hr>
+        </div>
+
+        <div class="right bg-black">
+            <div class="header-bar">
+                <div class="playlist-controls">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="signin-signup">
+                    <button class="signup">Signup</button>
+                    <button class="signin">Signin</button>
+                </div>
+            </div>
+
+            <div class="artist-heading">
+                <h1>Popular Artists</h1>
+                <p>Show all</p>
+            </div>
+
+            <div class="artists-content">
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/1.jpeg" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>The Weeknd</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/2.jpeg" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Taylor Swift</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/3.jpeg" height="200px" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Drake</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/4.jpeg" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Ariana Grande</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/5.jpeg" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>SZA</h3>
+                    <p>Artist</p>
+                </div>
+                <div class="artist">
+                    <div style="position: relative;">
+                        <img src="assets/6.jpeg" alt="artist1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Travis Scott</h3>
+                    <p>Artist</p>
+                </div>
+            </div>
+
+
+
+            <div class="album-heading">
+                <h1>Popular Album</h1>
+                <p>Show all</p>
+            </div>
+
+            <div class="album-content">
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album1.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>The Tortured Poets Department: The Analogy</h3>
+                    <p>Taylor Swift</p>
+                </div>
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album2.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>We Don't Trust You</h3>
+                    <p>Future, Metro Boomin</p>
+                </div>
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album3.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Utopia</h3>
+                    <p>Travis Scott</p>
+                </div>
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album4.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>eternal sunshine</h3>
+                    <p>Ariana Grande</p>
+                </div>
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album5.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Golden</h3>
+                    <p>Jung Kook</p>
+                </div>
+                <div class="album">
+                    <div style="position: relative;">
+                        <img src="assets/album6.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>SOS</h3>
+                    <p>SZA</p>
+                </div>
+            </div>
+
+
+            <div class="radio-heading">
+                <h1>Popular Radio</h1>
+                <p>Show all</p>
+            </div>
+
+            <div class="radio-content">
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio1.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Arijit Singh Radio</h3>
+                    <p>With Neha Kakkar, Pritam, KK and more</p>
+                </div>
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio2.jpeg" alt="radio1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Taylor Swidt Radio</h3>
+                    <p>With Selena Gomez, Olivia Rodrigo, Katy...</p>
+                </div>
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio3.jpeg" alt="radio2">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Coldplay Radio</h3>
+                    <p>With OneRepublic, Oasis, Maroon 5 and ...</p>
+                </div>
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio4.jpeg" alt="radio3">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Chris Brown Radio</h3>
+                    <p>With Trey Songz, T-Pain, Ne-Yo and more</p>
+                </div>
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio5.jpeg" alt="radio4">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>The Weekend Radio</h3>
+                    <p>With The Neighbourhood SZA</p>
+                </div>
+                <div class="radio">
+                    <div style="position: relative;">
+                        <img src="assets/radio6.jpeg" alt="radio5">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Post Malone Radio</h3>
+                    <p>With Khalid, Rae Sremmurd, Juice WRL...</p>
+                </div>
+            </div>
+
+
+            <div class="chart-heading">
+                <h1>Popular Chart</h1>
+                <p>Show all</p>
+            </div>
+
+            <div class="chart-content">
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart1.jpg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Top Songs - Global</h3>
+                    <p>Your weekly update of the most played tracks</p>
+                </div>
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart2.jpg" alt="radio1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Top Songs - USA</h3>
+                    <p>Your weekly update of the most played tracks</p>
+                </div>
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart3.jpg" alt="radio2">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Top 50 - Global</h3>
+                    <p>Your daily update of the most played tracks ...</p>
+                </div>
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart4.jpg" alt="radio3">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Top 50 - USA</h3>
+                    <p>Your daily update of the most played tracks</p>
+                </div>
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart5.jpg" alt="radio4">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Viral 50 - Global</h3>
+                    <p>Your daily update of the most played tracks</p>
+                </div>
+                <div class="chart">
+                    <div style="position: relative;">
+                        <img src="assets/chart6.jpg" alt="radio5">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Viral 50 - USA</h3>
+                    <p>Your daily update of the most played tracks</p>
+                </div>
+            </div>
+
+
+            <div class="SpotifyTracklist-heading">
+                <h1>Spotify Playlists</h1>
+                <p>Show all</p>
+            </div>
+
+            <div class="SpotifyTracklist-content">
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist1.jpeg" alt="album1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Mega Hit Mix</h3>
+                    <p>A mega mix of 75 favorite from the last...</p>
+                </div>
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist2.jpeg" alt="radio1">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Mellow Lofi Morning</h3>
+                    <p>Laid-back beats for an easygoing morning.</p>
+                </div>
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist3.jpeg" alt="radio2">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Rise</h3>
+                    <p>Positive and uplifting ambient instrumental...</p>
+                </div>
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist4.jpeg" alt="radio3">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Rock Classics</h3>
+                    <p>Rock legends & epic songs that continue to...</p>
+                </div>
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist5.jpeg" alt="radio4">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Peaceful Piano</h3>
+                    <p>Peaceful piano to help you slow down, breath...</p>
+                </div>
+                <div class="track">
+                    <div style="position: relative;">
+                        <img src="assets/Spotify-Playlist6.jpeg" alt="radio5">
+                        <i class="fa-solid fa-play play-button"></i>
+                    </div>
+                    <h3>Mood Booster</h3>
+                    <p>Get happy with today's dose of feel-good...</p>
+                </div>
+            </div>
+
+
+
+            <div class="footer">
+                <div class="company">
+                    <span>Company</span>
+                    <a href="">About</a>
+                    <a href="">Jobs</a>
+                    <a href="">For The Record</a>
+                </div>
+                <div class="communities">
+                    <span>Communities</span>
+                    <a href="">For Artists</a>
+                    <a href="">Developers</a>
+                    <a href="">Advertising</a>
+                    <a href="">Investors</a>
+                    <a href="">Vendors</a>
+
+                </div>
+                <div class="Useful-links">
+                    <span>Useful Links</span>
+                    <a href="">Support</a>
+                    <a href="">Free Mobile App</a>
+                </div>
+                <div class="Spotify Plans">
+                    <span>Spoify Plans</span>
+                    <a href="">Premium Individual</a>
+                    <a href="">Premium Duo</a>
+                    <a href="">Premium Family</a>
+                    <a href="">Premium Student</a>
+                    <a href="">Spoify Free</a>
+                </div>
+                <div class="social-links">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="bar">
+        <div class="signup-bar">
+            <div class="signup-bar-text">
+                <p>Preview of Spoify</p>
+                <span>Sign up to get unlimited songs and podcast with occasional ads. No Credit Card needed.</span>
+            </div>
+
+            <div>
+                <button class="signup-bar-button">Sign Up Free</button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+<!-- Till 31 https://www.youtube.com/watch?v=CYwEq1GdU4E&t=771s -->
